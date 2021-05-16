@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet href="../css/svg.css" type="text/css"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 130 130" enable-background="new 0 0 130 130" xml:space="preserve">
+<script type="text/javascript">
+<![CDATA[
+	<!--
+	// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+	// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+	// This code is freeware provided these four comment lines remain intact
+	// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+	{ coded = "zvjdzu@tGzTT.Yvt"
+	key = "fiSWcxvsBFrgy3mMk04RYHb9XazIpQthCleNJAj2VGDLnOuKwTd7o5U1ZqPE86"
+	shift=coded.length
+	link=""
+	for (i=0; i<coded.length; i++) {
+	  if (key.indexOf(coded.charAt(i))==-1) {
+	    ltr = coded.charAt(i)
+	    link += (ltr)
+	  }
+	  else {     
+	    ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+	    link += (key.charAt(ltr))
+	  }
+	}
+	//document.write("<div class='links'><ul><li><a href='mailto:"+link+"'><img src='mail.png'>&nbsp;&nbsp;"+link+"</a></li></ul><span style='display:block; clear:both;'></span></div>")
+	}
+	
+	function skypeme()
+	{
+	    window.location.href = "skype:"+link+"?add";
+	}
+	function skypename()
+	{
+	    document.write(link);
+	}
+	
+	// ]]>
+</script>
+		
+<g id="skype-button" class="social-button" onclick="skypeme()">
+	<defs>
+		<mask id="mask">
+			<rect fill="white" x="0" y="0" width="130" height="130" />
+			<path d="M94.806,70.062c0.18-1.338,0.284-2.699,0.284-4.085c0-16.617-13.545-30.09-30.248-30.09
+			c-1.661,0-3.29,0.136-4.872,0.396c-2.84-1.851-6.22-2.93-9.859-2.93c-9.976,0-18.05,8.082-18.05,18.053
+			c0,3.628,1.067,6.998,2.906,9.828c-0.249,1.547-0.372,3.13-0.372,4.742c0,16.622,13.535,30.093,30.247,30.093
+			c1.883,0,3.723-0.183,5.506-0.505c2.771,1.72,6.037,2.722,9.542,2.722c9.971,0,18.05-8.084,18.05-18.055
+			C97.939,76.463,96.783,72.959,94.806,70.062z M67.005,82.623C59.775,83,56.39,81.4,53.292,78.492
+			c-3.465-3.25-2.074-6.957,0.748-7.145c2.819-0.188,4.513,3.195,6.015,4.137c1.501,0.938,7.223,3.073,10.242-0.379
+			c3.29-3.758-2.189-5.701-6.201-6.293c-5.73-0.846-12.968-3.947-12.405-10.058c0.564-6.104,5.187-9.234,10.053-9.676
+			c6.204-0.562,10.242,0.939,13.435,3.665c3.694,3.149,1.695,6.668-0.657,6.952c-2.346,0.281-4.978-5.179-10.146-5.261
+			c-5.323-0.083-8.925,5.542-2.348,7.143c6.575,1.598,13.623,2.254,16.158,8.268C80.726,75.859,74.24,82.246,67.005,82.623z" />
+		</mask>
+	</defs>
+	<g>
+		<a id="ttip" xlink:title="Text me on Skype">
+			<path class="figure" d="M94.806,70.062c0.18-1.338,0.284-2.699,0.284-4.085c0-16.617-13.545-30.09-30.248-30.09
+			c-1.661,0-3.29,0.136-4.872,0.396c-2.84-1.851-6.22-2.93-9.859-2.93c-9.976,0-18.05,8.082-18.05,18.053
+			c0,3.628,1.067,6.998,2.906,9.828c-0.249,1.547-0.372,3.13-0.372,4.742c0,16.622,13.535,30.093,30.247,30.093
+			c1.883,0,3.723-0.183,5.506-0.505c2.771,1.72,6.037,2.722,9.542,2.722c9.971,0,18.05-8.084,18.05-18.055
+			C97.939,76.463,96.783,72.959,94.806,70.062z M67.005,82.623C59.775,83,56.39,81.4,53.292,78.492
+			c-3.465-3.25-2.074-6.957,0.748-7.145c2.819-0.188,4.513,3.195,6.015,4.137c1.501,0.938,7.223,3.073,10.242-0.379
+			c3.29-3.758-2.189-5.701-6.201-6.293c-5.73-0.846-12.968-3.947-12.405-10.058c0.564-6.104,5.187-9.234,10.053-9.676
+			c6.204-0.562,10.242,0.939,13.435,3.665c3.694,3.149,1.695,6.668-0.657,6.952c-2.346,0.281-4.978-5.179-10.146-5.261
+			c-5.323-0.083-8.925,5.542-2.348,7.143c6.575,1.598,13.623,2.254,16.158,8.268C80.726,75.859,74.24,82.246,67.005,82.623z" />
+			<rect class="background" x="0" y="0" width="130" height="130" mask="url(#mask)" />
+		</a>
+	</g>
+</g>
+</svg>
+

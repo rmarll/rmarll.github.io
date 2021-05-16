@@ -1,0 +1,325 @@
+@media (any-hover: none) {
+	
+.contact-button .figure {
+	fill: #fff;
+}
+
+#mail-button .background {
+	fill: #006ab5;
+}
+#skype-button .background {
+	fill: #12a5f4;
+}
+#twitter-button .background {
+	fill: #4099ff;
+}
+#googleplus-button .background {
+	fill: #d34836;
+}
+#linkedin-button .background {
+	fill: #007bb6;
+}
+
+.contact-button {	/* Fix mail and skype links that use javascript instead of anchors */
+	cursor: pointer;
+}
+
+} /* @media */
+
+
+@media (any-hover: hover) {
+
+
+.contact-button .figure {
+	opacity: 0.0;
+}
+
+.contact-button .background {
+	opacity: 0.3;
+}
+
+#mail-button:hover .figure {
+	fill: #fff;
+	opacity: 1;
+	transition: .25s;
+}
+
+#mail-button:hover .background {
+	fill: #006ab5;
+	opacity: 1;
+	transition: .25s;
+	animation-delay: 0.25s;
+}
+
+#skype-button:hover .figure {
+	fill: #fff;
+	opacity: 1;
+	transition: .25s;
+}
+#skype-button:hover .background {
+	fill: #12a5f4;
+	opacity: 1;
+	transition: .25s;
+	animation-delay: 0.25s;
+}
+
+#twitter-button:hover .figure {
+	fill: #fff;
+	opacity: 1;
+	transition: .25s;
+}
+#twitter-button:hover .background {
+	fill: #4099ff;
+	opacity: 1;
+	transition: .25s;
+	animation-delay: 0.25s;
+}
+
+#googleplus-button:hover .figure {
+	fill: #fff;
+	opacity: 1;
+	transition: .25s;
+}
+#googleplus-button:hover .background {
+	fill: #d34836;
+	opacity: 1;
+	transition: .25s;
+	animation-delay: 0.25s;
+}
+
+#linkedin-button:hover .figure {
+	fill: #fff;
+	opacity: 1;
+	transition: .25s;
+}
+#linkedin-button:hover .background {
+	fill: #007bb6;
+	opacity: 1;
+	transition: .25s;
+	animation-delay: 0.25s;
+}
+
+
+@-webkit-keyframes mail {
+	0% {
+		fill:#006ab5;
+		opacity: 0.0;
+	}
+	30% {
+		fill: #006ab5;
+		opacity: 1;
+	}
+	50% {
+		fill: #006ab5;
+		opacity: 1;
+	}
+	100% {
+		fill:#fff;
+		opacity: 1;
+	}
+}
+@-webkit-keyframes mailbg {
+	0% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	30% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	70% {
+		fill:#006ab5;
+		opacity: 1;
+	}
+	100% {
+		fill: #006ab5;
+		opacity: 1;
+	}
+}
+
+@keyframes skype {
+	0% {
+		fill:#12a5f4;
+		opacity: 0.0;
+	}
+	30% {
+		fill: #12a5f4;
+		opacity: 1;
+	}
+	50% {
+		fill: #12a5f4;
+		opacity: 1;
+	}
+	100% {
+		fill:#fff;
+		opacity: 1;
+	}
+}
+@keyframes skypebg {
+	0% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	30% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	70% {
+		fill:#12a5f4;
+		opacity: 1;
+	}
+	100% {
+		fill: #12a5f4;
+		opacity: 1;
+	}
+}
+
+@keyframes twitter {
+	0% {
+		fill:#4099ff;
+		opacity: 0.0;
+	}
+	30% {
+		fill: #4099ff;
+		opacity: 1;
+	}
+	50% {
+		fill: #4099ff;
+		opacity: 1;
+	}
+	100% {
+		fill:#fff;
+		opacity: 1;
+	}
+}
+@keyframes twitterbg {
+	0% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	30% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	70% {
+		fill:#4099ff;
+		opacity: 1;
+	}
+	100% {
+		fill: #4099ff;
+		opacity: 1;
+	}
+}
+
+@keyframes googleplus {
+	0% {
+		fill:#d34836;
+		opacity: 0.0;
+	}
+	30% {
+		fill: #d34836;
+		opacity: 1;
+	}
+	50% {
+		fill: #d34836;
+		opacity: 1;
+	}
+	100% {
+		fill:#fff;
+		opacity: 1;
+	}
+}
+@keyframes googleplusbg {
+	0% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	30% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	70% {
+		fill:#d34836;
+		opacity: 1;
+	}
+	100% {
+		fill: #d34836;
+		opacity: 1;
+	}
+}
+
+@keyframes linkedin {
+	0% {
+		fill:#007bb6;
+		opacity: 0.0;
+	}
+	30% {
+		fill: #007bb6;
+		opacity: 1;
+	}
+	50% {
+		fill: #007bb6;
+		opacity: 1;
+	}
+	100% {
+		fill:#fff;
+		opacity: 1;
+	}
+}
+@keyframes linkedinbg {
+	0% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	30% {
+		fill:#000;
+		opacity: 0.2;
+	}
+	70% {
+		fill:#007bb6;
+		opacity: 1;
+	}
+	100% {
+		fill: #007bb6;
+		opacity: 1;
+	}
+}
+
+
+
+#mail-button:hover .figure {
+	@animation: mail .25s forwards;
+}
+#mail-button:hover .background {
+	@animation: mailbg .25s forwards;
+}
+
+#skype-button:hover .figure {
+	@animation: skype .25s forwards;
+}
+#skype-button:hover .background {
+	@animation: skypebg .25s forwards;
+}
+
+#twitter-button:hover .figure {
+	@animation: twitter .25s forwards;
+}
+#twitter-button:hover .background {
+	@animation: twitterbg .25s forwards;
+}
+
+#googleplus-button:hover .figure {
+	@animation: googleplus .25s forwards;
+}
+#googleplus-button:hover .background {
+	@animation: googleplusbg .25s forwards;
+}
+
+#linkedin-button:hover .figure {
+	@animation: linkedin .25s forwards;
+}
+#linkedin-button:hover .background {
+	@animation: linkedinbg .25s forwards;
+}
+
+} /* @media only screen and (min-width : 640px) */

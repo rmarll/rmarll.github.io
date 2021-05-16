@@ -1,0 +1,127 @@
+/* ================================================================== */
+@media screen and (max-width: 400px) {
+  @-ms-viewport {
+    width: 320px;
+}
+}
+/*
+Setup a basic body
+*/
+
+
+body {
+	font: 400 16px/1.5 'Lato', sans-serif;
+	background-image: url("../img/background2.jpg");
+	background-size: cover;
+	position: absolute;
+	width:100%;
+	height:100%;
+	background-color: #5e7cab;
+}
+
+html {
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+
+
+
+#backstretch {
+	background-image: url("../img/background2.jpg");
+	background-size: cover;
+}
+
+/* header */
+header {
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}
+  header a {
+    color: rgb(255,255,255);
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-shadow: 1px 1px .5px rgba(0, 0, 0, 0.75);, -1px -1px .5px rgba(255, 255, 255, 0.50);
+    border-bottom: none;
+  }
+
+/* end header */
+
+
+
+
+
+div#container {
+	padding: 0px 20px;
+	text-align: center;
+}
+
+div.playPause {
+	margin-bottom: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px .4em;
+	border: 1px solid  white;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-size: 2.5em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	max-width: 440px;
+	overflow: auto;
+    text-align: left;
+    cursor: pointer;
+	cursor: hand;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+div.playPause span {
+	color: white;
+}
+
+div.playPause span.ppIndicator {
+	display:inline-block;
+	float: right;
+	line-height: 1.5em;
+
+}
+
+div.sprprograms {
+	margin-top: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+div p {
+	margin-bottom: 0;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-device-height : 568px) {
+
+div.playPause {
+	font-size: 2em;
+}
+}
+
+@media only screen and (max-width : 430px) {
+
+
+
+.sprprograms {
+	font-size: 1.5em !important;
+	line-height: 2em;
+}
+
+
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+	<link rel="stylesheet" href="./css/font-awesome-4.3.0/css/font-awesome.min.css">
+
+
+	<title>SPR Player</title>
+	<link rel="apple-touch-icon" href="./img/Icon-60@2x.png" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/text.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css">
+
+</head>
+                   
+
+
+<body style="zoom: 1;">
+
+<div id="container">
+	<header id="tophead">
+		<a href="http://spokanepublicradio.org" class="menuajax" title="Spokane Public Radio" alt="Spokane Public Radio">Spokane Public Radio</a>
+	</header>
+	<div class="playPause" id="KPBXradio">
+	    <span class="radioDescription">KPBX</span>
+	    <span class="ppIndicator fa fa-play"></span>
+	</div>
+    <div class="playPause" id="KSFCradio">
+	      <span class="radioDescription">KSFC</span>
+	      <span class="ppIndicator fa fa-play"></span>
+	</div>
+	<div class="playPause" id="KPBZradio">
+	   <span class="radioDescription">KPBZ</span>
+	   <span class="ppIndicator fa fa-play"></span>
+	</div>
+	<div class="playPause sprprograms" onclick="alert('This page no longer exists at KPBX.org')">
+		<p>SPR Program Guide</p>
+	</div>
+
+</div> <!- container -->
+
+<audio preload="none" id="radioPlayer" type='audio/mpeg;' ><p>Audio is not supported in your browser.</p></audio>
+
+<script src="./js/jquery-2.0.3.min.js"></script>
+<script src="./js/modernizr-2.6.2.min.js"></script>
+<script src="./js/menu.js"></script>
+
+</body>
+</html>
