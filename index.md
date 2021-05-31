@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8' />
+	<meta name='viewport' content='width=device-width'>
+	<title>Robert Marll</title>
+	<link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' media='screen' href='./css/index.css' />
+	<script type='text/javascript'>
+		function zoom(evt) {
+			console.log(evt)
+			window.location.href = 'https://zoom.us/j/96554409665?pwd=OGo4T1ZIdHpGMVFkdkZ2UXc0ZU05dz09';
+		}
+		function googlemeet(evt) {
+			console.log(evt)
+			window.location.href = 'http://meet.google.com/rxj-toeh-bpj';
+		}
+	</script>
+	<script type='text/javascript'>
+		<!--
+		// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+		// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+		// This code is freeware provided these four comment lines remain intact
+		// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+		{ coded = 'zvjdzu@tGzTT.Yvt'
+		coded2 = '+xWQN77Qxaat'
+		key = 'fiSWcxvsBFrgy3mMk04RYHb9XazIpQthCleNJAj2VGDLnOuKwTd7o5U1ZqPE86'
+		shift=coded.length
+		link=''
+		link2=''
+		for (i=0; i<coded.length; i++) {
+		  if (key.indexOf(coded.charAt(i))==-1) {
+		    ltr = coded.charAt(i)
+		    link += (ltr)
+		  }
+		  else {     
+		    ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+		    link += (key.charAt(ltr))
+		  }
+		}
+		shift=coded2.length
+		link2=''
+		for (i=0; i<coded2.length; i++) {
+		  if (key.indexOf(coded2.charAt(i))==-1) {
+		    ltr = coded2.charAt(i)
+		    link2 += (ltr)
+		  }
+		  else {     
+		    ltr = (key.indexOf(coded2.charAt(i))-shift+key.length) % key.length		    
+		    link2 += (key.charAt(ltr))
+		  }
+		}
+		}
+		function email(evt) {
+			console.log(evt)
+			window.location.href = 'mailto:'+link;
+		}
+		function skype(evt) {
+			console.log(evt)
+			window.location.href = 'skype:'+link+'?chat';
+		}
+		function sms(evt) {
+			window.location.href = 'sms:'+link2;
+		}
+	</script>
+</head>
+<body>
+
+<header>
+	<h2 id='name'>Robert Marll</h2>
+</header>
+
+<div id='contact'>
+	<img id='email' class='icon' src='./img/mail.png' title='Email' alt='Mail icon' onclick='email()'>
+	<a href='https://twitter.com/rmarll'>
+		<img id='twitter' class='icon' src='./img/twit.png' title='Twitter' alt='Twitter icon'>
+	</a>
+	<a href='https://m.me/robertmarll1'>
+		<img id='instagram' class='icon' src='./img/messenger.png' title='Facebook Messenger' alt='Facebook Messenger icon'>
+	</a>
+	<span class='nobreak'>
+		<a href='https://instagram.com/rmarll'> 
+			<img id='instagram' class='icon' src='./img/insta.png' title='Instagram' alt='Instagram icon'>
+		</a>
+		<a href='https://www.youtube.com/channel/UCBHHsUTameAy2no05mnOQiw/'>
+			<img id='youtube' class='icon' src='./img/youtube.png' title='Youtube' alt='Youtube icon'>
+		</a>
+	</span>
+</div>
+
+</body>
+</html>
